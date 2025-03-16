@@ -13,7 +13,7 @@ function HomeHero(props) {
                 </p>
             </div>
             <div className="bg-blue-500/40  w-1/2">
-                texto
+               Prueba texto
             </div>
            
         </header>
