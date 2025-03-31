@@ -1,16 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import {jakartaSans,italianno} from './fonts'
 import "./globals.css";
 import Navbar from "@/components/nav-bar";
+import SmoothScrolling from "@/components/ui/smooth-scroll";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Gárgolas de Sevilla",
@@ -18,13 +11,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  console.log(italianno)
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${jakartaSans.variable} jakarta ${italianno.variable}  antialiased`}
       >
         <Navbar />
+        <SmoothScrolling>
         {children}
+        </SmoothScrolling>
       </body>
     </html>
   );

@@ -1,20 +1,26 @@
-import React from 'react';
-import { Menu  as MenuIcon  } from 'lucide-react';
 
-function Navbar() {
-    return (
-        <nav className="fixed justify-between inset-x-0 flex  p-5 bg-black/40  items-center backdrop-invert" >
-          <div className="">logo</div> 
-          <div className="flex gap-5 uppercase  ">
-            <span>Menu 1</span>
-            <span>Menu 2</span>
-            <span>Menu 3</span>
-            <span>Menu 4</span>
-           <MenuIcon strokeWidth={3} className="text-white hover:text-red-500 cursor-pointer transition  md:hidden  " />
-          </div>
-        </nav>
-    );
-}
+
+import { menuslist } from '@/config/menus';
+import MenuLink from './menu-link';
+import MenuWrapper from './menu-wrapper';
+const Navbar = () => {
+
+  const menus = menuslist.map((menu) => (
+    <MenuLink key={menu.href} {...menu} />
+  ))
+
+  return (
+    <nav className="fixed flex justify-between items-center inset-x-0  bg-black z-30 px-5 py-3">
+      <span>logo</span>
+      <div className="flex relative ">
+
+        <MenuWrapper>
+          {menus}
+        </MenuWrapper>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
 
