@@ -41,7 +41,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --color-sevilla: rgb(255 0 0);
+  --color-sevilla: rgb(178 34 34);
   --color-sevilla-foreground: oklch(0.205 0 0);
 }
 
@@ -130,9 +130,6 @@
       height: 100%;
       z-index: -1;
       transition: all .3s ease-in-out;
-
-
-
 
     }
 

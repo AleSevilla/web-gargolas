@@ -5,7 +5,7 @@ function Gargolas() {
     const gargolas = gargolaslist.map(({ nombre, id, url }) => <LinkGargola key={id} url={url} nombre={nombre} />)
     return (
         <main >
-            <h1>Listado de gargolas</h1>
+            <h1>Listado de las gárgolas de Sevilla</h1>
             <ul>
                 {gargolas}
             </ul>

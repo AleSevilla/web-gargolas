@@ -2,7 +2,7 @@
 export const gargolaslist = [
   {
     id: 1,
-    nombre: 'Gargola de la Catedral',
+    nombre: 'Gárgolas de la Catedral',
     url: "sombrio-centinela",
     morfologia: "Figura demoníaca alada",
     tipologia: "Decorativa",
@@ -13,16 +13,239 @@ export const gargolaslist = [
     ],
   }, {
     id: 2,
-    nombre: 'a',
+    nombre: 'Gárgolas del Ayuntamiento',
     url: "",
     morfologia: "",
     tipologia: "",
-    localizacion: "Catedral de Sevilla",
+    localizacion: "Ayuntamiento de Sevilla",
     descripcion: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
-  }
+  },
+
+  {
+    id: 3,
+    nombre: 'Gárgolas del pabellón real',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Plaza Americ ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 4,
+    nombre: 'Gàrgolas del Convento Santa Paula',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Convento Santa Paula ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 5,
+    nombre: 'Gárgolas de la antigua capilla del hospital San Lázaro',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Hospital san lazaro ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 6,
+    nombre: 'Gárgolas de la antigua fábrica de tabacos',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Universidad de Sevilla",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 7,
+    nombre: 'Gárgolas del antiguo hospital de las cinco llagas',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Parlamento de Andalucía ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 8,
+    nombre: 'Gárgolas del Palacio San Telmo',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Palacio San Telmo ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 9,
+    nombre: 'Gàrgolas de la Plaza de España',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Plaza de España ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 5,
+    nombre: 'Gárgolas del Pabellón de Perú',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Pabellon de Peru",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 6,
+    nombre: 'Gárgolas de la iglesia San Isidoro',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Iglesia san Isidoro ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 7,
+    nombre: 'Gárgolas de la iglesia San Pedro',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "iglesia San Pedro ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 8,
+    nombre: 'Gárgolas de la capilla Santa María de Jesús',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Puerta Jerez ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 9,
+    nombre: 'Gárgolas de la iglesia de San Ildefonso',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Iglesia de San Ildefonso",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 10,
+    nombre: 'Gárgolas de la torre de don Fabrique',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Convento de Santa Clara",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+  {
+    id: 10,
+    nombre: 'Palacio de Congresos (F.I.B.E.S.)',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "Palacion de Congresos",
+    descripcion: "",
+    galeria: [
+    //  { src: '', alt: 'imagen 1', },
+  ],
+},
+
+  {
+    id: 11,
+    nombre: '',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: "3 ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 12,
+    nombre: '',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: " ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  {
+    id: 13,
+    nombre: '',
+    url: "",
+    morfologia: "",
+    tipologia: "",
+    localizacion: " ",
+    descripcion: "",
+    galeria: [
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
+
+  
+
   /*
 ,
   {
