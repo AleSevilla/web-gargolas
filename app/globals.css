@@ -45,18 +45,23 @@
   --color-sevilla-foreground: oklch(0.205 0 0);
 }
 
-@layer components{
-  .herobg{
-    background-image: url('https://images.pexels.com/photos/5466936/pexels-photo-5466936.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1');
-
+@layer components {
+  body {
+    overflow-y: scroll;
   }
-  .menu-mobile > span{
+
+  .herobg {}
+
+  .menu-mobile>span {
     background-color: black;
 
   }
 
 }
-*,*::before,*::after{
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -99,68 +104,75 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
-  body:has(.menu-open){
+
+  body:has(.menu-open) {
     overflow: hidden;
   }
-  .menuhover{
+
+  .menuhover {
     isolation: isolate;
     position: relative;
-    &::after{
 
-      
-      position:absolute;
-      content:"";
-    @apply bg-sevilla;
-      
-      top:0;
-      left:0;
+    &::after {
+
+
+      position: absolute;
+      content: "";
+      @apply bg-sevilla;
+
+      top: 0;
+      left: 0;
       width: 0px;
       height: 100%;
       z-index: -1;
       transition: all .3s ease-in-out;
 
-      
-      
+
+
 
     }
 
   }
-  .menuhover.activo{
-    
-    &::before{
+
+  .menuhover.activo {
+
+    &::before {
       display: flex;
-      content:"";
-      
+      content: "";
+
       border-bottom-width: 1px;
       border-bottom-style: solid;
       @apply border-sevilla;
       position: absolute;
       inset: 0;
       z-index: -1;
-      
+
 
     }
   }
-  .menuhover:hover{
 
-    &::after{
-      
-        width: 100%;
-        
+  .menuhover:hover {
+
+    &::after {
+
+      width: 100%;
+
 
     }
-    
+
 
   }
-  .jakarta{
+
+  .jakarta {
     font-family: var(--font-jakarta);
 
   }
-  .italianno{
+
+  .italianno {
     font-family: var(--font-italianno);
   }
 }
-

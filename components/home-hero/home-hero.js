@@ -1,21 +1,21 @@
+import Image from 'next/image';
 import React from 'react';
 
 function HomeHero(props) {
     return (
-        <header className="h-screen flex  flex-col  lg:flex-row-reverse bg-purple-500/30 py-20 herobg bg-cover bg-right-bottom" >
-            <div className="flex flex-col items-start px-12  justify-center gap-12  bg-red-500/10  w-1/2 ">
+        <header className="relative h-screen flex  flex-col items-center md:flex-row  lg:flex-row-reverse  py-20 herobg bg-cover bg-right-bottom" >
+            <Image className='absolute w-screen h-screen object-cover object-right-top -z-1' src='/images/HomeHero.jpg' width={4096} height={2752} />
+            <div className="flex flex-col items-start px-12  justify-center gap-12 h-full  ">
 
-                <h1 className="text-white text-6xl font-normal underline decoration-orange-500 italianno ">
+                <h1 className=" text-black w-full  text-7xl md:text-9xl font-normal underline decoration-s decoration-sevilla italianno ">
                     Gárgolas de Sevilla
                 </h1>
-                <p className="text-white text-2xl">
+                <p className="text-black text-xl">
                     Recorrido por las gárgolas de Sevilla
                 </p>
             </div>
-            <div className="bg-blue-500/40  w-1/2">
-               Prueba texto
-            </div>
-           
+
+
         </header>
     );
 }
