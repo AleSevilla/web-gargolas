@@ -12,7 +12,7 @@ function Imagenes({galeria,imagePath}) {
       const [index, setIndex] = useState(-1);
         const images=galeria.map(({src,alt},key)=><Image
         className="w-12 md:w-6/12 lg:w-4/12 cursor-pointer" 
-        size="20vw"
+        
         key={src} 
         src={`/images${imagePath}/${src}`}
         

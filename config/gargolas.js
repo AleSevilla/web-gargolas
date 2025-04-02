@@ -116,7 +116,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 5,
+    id: 10,
     nombre: 'Gárgolas del Pabellón de Perú',
     url: "",
     morfologia: "",
@@ -129,7 +129,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 6,
+    id: 11,
     nombre: 'Gárgolas de la iglesia San Isidoro',
     url: "",
     morfologia: "",
@@ -142,7 +142,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 7,
+    id: 12,
     nombre: 'Gárgolas de la iglesia San Pedro',
     url: "",
     morfologia: "",
@@ -155,7 +155,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 8,
+    id: 13,
     nombre: 'Gárgolas de la capilla Santa María de Jesús',
     url: "",
     morfologia: "",
@@ -168,7 +168,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 9,
+    id: 14,
     nombre: 'Gárgolas de la iglesia de San Ildefonso',
     url: "",
     morfologia: "",
@@ -181,7 +181,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 10,
+    id: 15,
     nombre: 'Gárgolas de la torre de don Fabrique',
     url: "",
     morfologia: "",
@@ -193,7 +193,7 @@ export const gargolaslist = [
     ],
   },
   {
-    id: 10,
+    id: 16,
     nombre: 'Palacio de Congresos (F.I.B.E.S.)',
     url: "",
     morfologia: "",
@@ -201,12 +201,12 @@ export const gargolaslist = [
     localizacion: "Palacion de Congresos",
     descripcion: "",
     galeria: [
-    //  { src: '', alt: 'imagen 1', },
-  ],
-},
+      //  { src: '', alt: 'imagen 1', },
+    ],
+  },
 
   {
-    id: 11,
+    id: 17,
     nombre: '',
     url: "",
     morfologia: "",
@@ -219,7 +219,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 12,
+    id: 18,
     nombre: '',
     url: "",
     morfologia: "",
@@ -232,7 +232,7 @@ export const gargolaslist = [
   },
 
   {
-    id: 13,
+    id: 19,
     nombre: '',
     url: "",
     morfologia: "",
@@ -244,7 +244,7 @@ export const gargolaslist = [
     ],
   },
 
-  
+
 
   /*
 ,
