@@ -8,8 +8,43 @@ export const gargolaslist = [
     tipologia: "Decorativa",
     localizacion: "Catedral de Sevilla",
     descripcion: "El Sombrío Centinela observa la ciudad desde lo alto, con sus garras afiladas y alas desplegadas. Su mirada vacía parece seguir a los transeúntes, y se dice que en noches de tormenta su silueta parece moverse con la lluvia. Antiguas leyendas aseguran que protege la catedral de fuerzas oscuras.",
+    imagePath: "/catedral",
     galeria: [
-      { src: '/imagen1/1270/720', alt: 'imagen 1', },
+      { src: "P1160226.jpg", alt: "imagen catedral 1" },
+      { src: "P1160230.jpg", alt: "imagen catedral 1" },
+      { src: "P1160236.jpg", alt: "imagen catedral 1" },
+      { src: "P1160237.jpg", alt: "imagen catedral 1" },
+      { src: "_1130645.jpg", alt: "imagen catedral 1" },
+      { src: "_1130652.jpg", alt: "imagen catedral 1" },
+      { src: "_1130657.jpg", alt: "imagen catedral 1" },
+      { src: "_1130687.jpg", alt: "imagen catedral 1" },
+      { src: "_1130690.jpg", alt: "imagen catedral 1" },
+      { src: "_1130691.jpg", alt: "imagen catedral 1" },
+      { src: "_1130696.jpg", alt: "imagen catedral 1" },
+      { src: "_1130707.jpg", alt: "imagen catedral 1" },
+      { src: "_1130709.jpg", alt: "imagen catedral 1" },
+      { src: "_1130710.jpg", alt: "imagen catedral 1" },
+      { src: "_1130713.jpg", alt: "imagen catedral 1" },
+      { src: "_1130715.jpg", alt: "imagen catedral 1" },
+      { src: "_1130724.jpg", alt: "imagen catedral 1" },
+      { src: "_1130725.jpg", alt: "imagen catedral 1" },
+      { src: "_1130726.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3313.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3314.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3315.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3461.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3464.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3472.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3587.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF3807.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF4118.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF4323.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF4369.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF5911.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF5923.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF5929.JPG", alt: "imagen catedral 1" },
+      { src: "_DSF5971.jpg", alt: "imagen catedral 1" },
+      { src: "_DSF9935.jpg", alt: "imagen catedral 1" },
     ],
   }, {
     id: 2,
@@ -19,6 +54,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Ayuntamiento de Sevilla",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -32,6 +68,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Plaza Americ ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -45,6 +82,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Convento Santa Paula ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -58,6 +96,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Hospital san lazaro ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -71,6 +110,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Universidad de Sevilla",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -84,6 +124,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Parlamento de Andalucía ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -97,6 +138,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Palacio San Telmo ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -110,6 +152,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Plaza de España ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -123,6 +166,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Pabellon de Peru",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -136,6 +180,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Iglesia san Isidoro ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -149,6 +194,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "iglesia San Pedro ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -162,6 +208,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Puerta Jerez ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -175,6 +222,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Iglesia de San Ildefonso",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -188,6 +236,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Convento de Santa Clara",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -200,6 +249,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "Palacion de Congresos",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -213,6 +263,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: "3 ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -226,6 +277,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: " ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -239,6 +291,7 @@ export const gargolaslist = [
     tipologia: "",
     localizacion: " ",
     descripcion: "",
+    imagePath: "",
     galeria: [
       //  { src: '', alt: 'imagen 1', },
     ],
@@ -256,6 +309,7 @@ export const gargolaslist = [
     tipologia: "Drenaje",
     localizacion: "Archivo de Indias",
     descripcion: "El Heraldo del Viento se alza sobre el Archivo de Indias, con su pico abierto como si estuviera a punto de lanzar un grito. Sus alas pétreas muestran erosión por siglos de lluvia. Se dice que en noches de viento, su silueta parece cobrar vida entre las sombras de la luna.",
+    imagePath:"",
     galeria: [
       { src: '/imagen1/1270/720', alt: 'imagen 1' },
     ]
@@ -268,6 +322,7 @@ export const gargolaslist = [
     tipologia: "Drenaje",
     localizacion: "Catedral de Sevilla",
     descripcion: "La Bestia del Giraldillo descansa cerca de la torre, con su cuerpo alargado y musculoso. Su boca, que vierte agua en días de lluvia, parece congelada en un rugido eterno. Según los mitos, por las noches desciende de su pedestal para recorrer los tejados de la ciudad.",
+    imagePath:"",
     galeria: [
       { src: '/imagen1/1270/720', alt: 'imagen 1' },
     ]
@@ -283,6 +338,7 @@ export const gargolaslist = [
     localizacion: "Palacio Arzobispal",
     descripcion: "Con una postura vigilante, el Espíritu del Arroyo adorna la fachada del Palacio Arzobispal. Su rostro es sereno pero enigmático, como si escondiera secretos del pasado. Los ancianos cuentan que su estatua llora gotas de agua cuando la ciudad sufre grandes desgracias.",
 
+    imagePath:"",
     galeria: [{ src: "P1160226.jpg", alt: "catedral 1" },
     { src: "P1160230.jpg", alt: "catedral 1" },
     { src: "P1160236.jpg", alt: "catedral 1" },
@@ -329,6 +385,7 @@ export const gargolaslist = [
     tipologia: "Decorativa",
     localizacion: "Palacio Arzobispal",
     descripcion: "Con una postura vigilante, el Espíritu del Arroyo adorna la fachada del Palacio Arzobispal. Su rostro es sereno pero enigmático, como si escondiera secretos del pasado. Los ancianos cuentan que su estatua llora gotas de agua cuando la ciudad sufre grandes desgracias.",
+    imagePath:"",
     galeria: [
       { src: '/imagen1/1270/720', alt: 'imagen 1' },
     ]
