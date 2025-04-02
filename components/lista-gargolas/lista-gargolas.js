@@ -6,7 +6,7 @@ function Gargolas() {
     return (
         <main >
             <h1>Listado de las gárgolas de Sevilla</h1>
-            <ul>
+            <ul className='pl-4 flex items.start flex-col gap-1'>
                 {gargolas}
             </ul>
         </main>
