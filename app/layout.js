@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body
-        className={`${jakartaSans.variable} jakarta ${italianno.variable}  antialiased`}
+        className={`${jakartaSans.variable} jakarta ${italianno.variable}  antialiased dark`}
       >
         <Navbar />
         <SmoothScrolling>
