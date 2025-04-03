@@ -1,9 +1,11 @@
 import { localizaciones } from "@/config/gargolas";
 import { MapPin } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 export function ZonasGargolas() {
 	return localizaciones.map(({ lugar, imagen, nombre, url, gargolas }) => (
 		<article key={lugar} className="group relative overflow-hidden rounded-lg">
+			<Link href={`/${url}`}>
 			<figure className="relative h-full">
 				<div className="absolute inset-0 bg-black/40 z-10"></div>
 				<Image
@@ -23,6 +25,7 @@ export function ZonasGargolas() {
 					</div>
 				</figcaption>
 			</figure>
+			</Link>
 		</article>
 	));
 }

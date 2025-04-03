@@ -190,10 +190,7 @@
   .menuhover:hover {
 
     &::after {
-
       width: 100%;
-
-
     }
 
 
@@ -207,4 +204,26 @@
   .italianno {
     font-family: var(--font-italianno);
   }
+
+  .zona {
+    padding-top: 6rem;
+
+  }
+
+  /*  .text {
+    padding: 20px;
+    background-color: blueviolet;
+
+  }
+
+  .presentacion {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+  } */
+
+
+
+
 }

@@ -3,7 +3,7 @@ export const gargolaslist = [
   {
     id: 1,
     nombre: 'Gárgolas de la Catedral',
-    zona:"Catedral",
+    zona: "Catedral",
     url: "sombrio-centinela",
     morfologia: "Figura demoníaca alada",
     tipologia: "Decorativa",
@@ -262,43 +262,43 @@ export const gargolaslist = [
 export const localizaciones = [
   {
     lugar: 'Catedral',
-    imagen:'catedral.webp',
+    imagen: 'catedral.webp',
     nombre: "Catedral de Sevilla",
     url: 'catedral',
-    gargolas:5,
+    gargolas: 5,
   },
   {
     lugar: 'Ayuntamiento',
-    imagen:'ayuntamiento.webp',
+    imagen: 'ayuntamiento.webp',
     nombre: "Ayuntamiento de Sevilla",
     url: 'ayuntamiento',
-    gargolas:2,
+    gargolas: 2,
   },
   {
     lugar: 'fabrica',
-    imagen:'fabrica.webp',
+    imagen: 'fabrica.webp',
     nombre: "Antigua Fábrica de Tabacos",
     url: 'fabrica-de-tabacos',
-    gargolas:7,
+    gargolas: 7,
   },
   {
     lugar: 'parlamento',
-    imagen:'parlamento.webp',
+    imagen: 'parlamento.webp',
     nombre: "Antiguo Hospital de las Cinco Llagas",
     url: 'parlamento',
-    gargolas:3,
+    gargolas: 3,
   }, {
     lugar: 'santelmo',
-    imagen:'santelmo.webp',
+    imagen: 'santelmo.webp',
     nombre: "Palacio de San Telmo",
     url: 'san-telmo',
-    gargolas:1,
+    gargolas: 1,
   }, {
     lugar: 'sanisidoro',
-    imagen:'sanisidoro.webp',
-    nombre: "Parroquia deSan Isidoro",
-    url: 'parlamento',
-    gargolas:4,
+    imagen: 'sanisidoro.webp',
+    nombre: "Parroquia de San Isidoro",
+    url: 'san-isidoro',
+    gargolas: 4,
   }
 
 ]
