@@ -1,5 +1,5 @@
 import HomeHero from "@/components/home-hero";
-import Intro from "@/components/intro";
+import HomeSection1 from "@/components/home-section1";
 
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <div className="font-[family-name:var(--font-geist-sans)]">
       
     <HomeHero />
-    <Intro />
+    
   
     </div>
   );
