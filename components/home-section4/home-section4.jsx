@@ -46,7 +46,7 @@ export default function HomeSection3() {
               
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">El León</h3>
+              <h3 className="text-xl font-bold mb-2"> León</h3>
               <p className="text-gray-400">
                 Representando fuerza y ​​nobleza, es el animal más representado, Se trata del rey de los animales 
                 y adoptado por la iconografia cristiana, vigila la zona este de la catedral.  
@@ -65,7 +65,7 @@ export default function HomeSection3() {
            
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">El dragón</h3>
+              <h3 className="text-xl font-bold mb-2"> Dragón</h3>
               <p className="text-gray-400">
               Una criatura significativa de ser un animal vigilante, fuerte y vista muy aguda,con fuerza extraordinaria 
               hizo su uso de custodiar los templos.
@@ -85,7 +85,7 @@ export default function HomeSection3() {
              
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">Antropomorfo</h3>
+              <h3 className="text-xl font-bold mb-2">Antropomorfos</h3>
               <p className="text-gray-400">
                El antromorfo es el el más representado en las gárgolas, posee cabeza de hombre y cuerpo de animal,
                o viceversa
