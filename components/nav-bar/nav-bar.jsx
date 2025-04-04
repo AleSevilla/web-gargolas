@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed flex justify-between items-center inset-x-0  bg-black z-30 px-5 py-3">
-      <span>logo</span>
+      <span>Gárgolas de Sevilla</span>
       <div className="flex relative ">
 
         <MenuWrapper>
