@@ -15,7 +15,7 @@ export default function HomeSection2() {
             <div className="group">
               <div className="relative overflow-hidden rounded-lg mb-6">
                 <img
-                  src="http://www.jdiezarnal.com/catedraldesevillavistaaerea01.jpg"
+                  src="https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1614788019/oh9pshspvtvi1yqjbmws.jpg"
                   alt="catedral"
                   className="w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
